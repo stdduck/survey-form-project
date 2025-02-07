@@ -1,7 +1,8 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang = "en">
   <head>
     <title>Survey Form</title>
+    <meta charset = "utf-8">
   </head>
   <body>
     <h1>Customer Survey Form</h1>
@@ -10,6 +11,15 @@
       <label>Name <input type = "text" placeholder = "Enter your name" required></label>
       <label>Email <input type = "email" placeholder = "Enter your email" required></label>
       <label>Age <input type = "number" placeholder = "Age" min = "18" max = "120"></label>
+      <label>Gender <input type="radio" value="M" name="m-f">M
+        <input type="radio" value="F" name="m-f">F</label>
+      <select>
+          <option>(select your role)</option>
+          <option>unemployed</option>
+          <option>entrepreneur</option>
+          <option>student</option>
+          <option>other</option>
+      </select>
     </form>
   </body>
 </html>
